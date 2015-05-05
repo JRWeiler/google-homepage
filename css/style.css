@@ -1,0 +1,36 @@
+#logo {
+  width: 400px;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#searchBox {
+  width: 40%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#buttonFrame {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.button {
+  width: 8em;
+  height: 2em;
+  background-color: #e6e6e6;
+  font-family: "Lato" sans-serif;
+  margin: 10px;
+  border: none;
+  padding: 2px;
+}
+
