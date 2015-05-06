@@ -1,56 +1,79 @@
-#logo {
-  width: 400px;
-  position: fixed;
-  top: 30%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+body {
+  color:#222;
 }
-
-#searchBox {
-  width: 40%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+.nav { 
+  padding-top:16px;
+  padding-right:20px;
 }
-
-#buttonFrame {
-  position: fixed;
-  top: 60%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+.nav-icon {
+  float:right;
+  margin: 0 9px;
+  font-family:arial;
+  color:#404040;
+  font-size:13px;
+  line-height: 24px;
 }
-
-.button {
-  width: 8em;
-  height: 2em;
-  background-color: #e6e6e6;
-  font-family: "Lato" sans-serif;
-  margin: 10px;
-  border: none;
-  padding: 2px;
+.nav-icon button {
+  color: white;
+  background: #2E8AE6;
+  border:none;
+  height:30px;
+  width:70px;
 }
-
-.header {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-left: 80%
+.nav-icon img {
+  padding-top:3px;
 }
-
-#footer {
-  position: fixed;
-  bottom:0;
-  background-color: #e6e6e6;
-  width: 100%;
-  height: 3em;
+.main-content {
+  padding-top:176px;
+  text-align: center;
 }
-
-li {
-  display: inline;
-  padding: 5px;
+.main-content img {
+    height:95px;
+    width:269px;
+}
+.main-content form input {
+  width:569px;
+  height:26px;
+  margin-top:19px;
+  border:1px solid rgba(0, 0, 0, 0.2);
+}
+.main-content form button{
+  color: rgb(68, 68, 68);
+  font-weight:bold;
+  font-size:10px;
+  background: #2E8AE6;
+  height:29px;
+  width:118px;
+  margin: 16px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgb(245, 245, 245);
+}
+footer {
+  background:rgb(242, 242, 242);
+  height:40px;
+  width:100%;
+  position:fixed;
+  bottom:0px;
+}
+.foot-links {
+  margin-left:15px;
+  margin-right:15px;
+  font-family:arial;
+  color:#666;
+  font-size:13px;
+  line-height: 24px;
+  
+}
+.left-links {
+  margin: 8px 15px;
+  float:left
+}
+.right-links {
+  margin: 8px 15px;        
+  float:right
+}
+body {
+  width:100%;
+  left:0;
 }
 
